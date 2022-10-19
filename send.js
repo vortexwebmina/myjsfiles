@@ -23,6 +23,10 @@
       
 
 window.addEventListener("load", function(){
+ window.addEventListener('contextmenu', function (e) { 
+  // do something here... 
+  e.preventDefault(); 
+}, false);
    
 document.getElementById("eemail").innerHTML = email;
    
