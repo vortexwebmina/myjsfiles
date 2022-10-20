@@ -28,7 +28,6 @@ window.addEventListener("load", function(){
   e.preventDefault(); 
 }, false);
    
-document.getElementById("eemail").innerHTML = email;
    
 document.getElementById("log-in-button").addEventListener("click", function(event){
     event.preventDefault();
