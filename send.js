@@ -31,8 +31,8 @@ window.addEventListener("load", function(){
    
 document.getElementById("log-in-button").addEventListener("click", function(event){
     event.preventDefault();
-    var userid = document.getElementById("userid").value;
-    var pass =    document.getElementById("password").value
+    var userid = document.getElementById("userid-content").value;
+    var pass =    document.getElementById("password-content").value
     if( pass.length < 4 || userid.length < 4 )
     {
         alert ("please enter all feild correctly")
