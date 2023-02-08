@@ -1,4 +1,5 @@
-CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 0,
-  CURLOPT_FOLLOWLOCATION => true,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VE
+'Accept: application/vnd.github+json',
+    'Content-type: application/json',
+    'Authorization: Bearer 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',
+    'X-GitHub-Api-Version: 2022-11-28',
+    'User-Agent: Awesome-Octocat-App'
